@@ -2,17 +2,41 @@
 
 
 
-## How to Run
+# Pickle
 
-1. Activate the virtual environment:
-   ```bash
-   source venv/bin/activate
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the FastAPI server:
-   ```bash
-   uvicorn app.main:app --reload
-   ```
+## 소개
+
+대학 강의평가는 정보가 많고 복잡합니다.  
+**Pickle은 강의 평가 텍스트를 AI로 요약**하여,  
+장단점, 시험 스타일, 과제 유형 등을 한눈에 파악할 수 있게 도와줍니다.
+
+---
+
+## 🚀 주요 기능
+
+- ✅ **강의 핵심 요약**: 장점, 단점, 팁, 비추천 등 요약 카드 제공
+- ✅ **시험/과제 스타일 요약**: 객관식인지, 팀플 있는지 등 정보 추출
+- ✅ **동일 수업명의 교수 구분**: 같은 수업이라도 교수별 평가 구분
+- ✅ **사이버/대면 강의 구분**
+- ✅ **지도 기반 강의 위치 시각화** (예정)
+
+---
+
+## 🔧 사용 기술
+
+- **Backend**: FastAPI, Python, Pydantic
+- **Frontend**: React Native, Figma
+- **AI 요약**: LLM 기반 텍스트 분석 및 요약
+- **협업 도구**: GitHub, Notion
+
+---
+
+## 👥 팀 구성
+
+| 이름     | 역할            |
+|----------|-----------------|
+| 김지윤   | 백엔드 개발      |
+| 김태민   | 백엔드 개발      |
+| 안소윤   | 프론트엔드 & 디자인 |
+
+---
